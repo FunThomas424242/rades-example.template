@@ -7,4 +7,4 @@ assignees: ''
 
 ---
 
-child-of #epicNo
+child-of #epicNumber
