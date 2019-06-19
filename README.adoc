@@ -1,0 +1,9 @@
+== rades-example.template
+Template zum Aufsetzen eines RADES Examples
+
+
+Quellen
+
+* https://github.com/npryce/make-it-easy
+
+
