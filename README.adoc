@@ -23,7 +23,7 @@ Template zum Aufsetzen eines RADES Beispiel Projektes.
 
 [#hintergrund]
 == Hintergrund
-Lange habe ich versucht ein Projekttemplate zu erstellen. Es gibt dazu bereits einige Projekte (bsispielsweise https://github.com/FunThomas424242/rades.scaffolding[rades.scaffolding])in meinem persönlichem Account. Doch nun ist mir Github dankenswerter Weise zuvor gekommen und hat einen Mechanismus angeboten ein bestehendes Projekt als Template Projekt zu markieren. Das konnte ich prima nutzen und möchte mich dafür recht herzlich Bedanken. 
+Lange habe ich versucht ein Projekttemplate zu erstellen. Es gibt dazu bereits einige Projekte (beispielsweise https://github.com/FunThomas424242/rades.scaffolding[rades.scaffolding])in meinem persönlichem Account. Doch nun ist mir Github dankenswerter Weise zuvor gekommen und hat einen Mechanismus angeboten ein bestehendes Projekt als Template Projekt zu markieren. Das konnte ich prima nutzen und möchte mich dafür recht herzlich Bedanken. 
 Dieses Projekt stellt ein Template für alle Projekte im RADES Beispiel Projekt Style dar. Wem es gefällt oder wer ein RADES Beispiel Projekt beisteuern möchte, der darf es gerne nutzen - alle anderen natürlich auch ;)
 
 [#installation]
