@@ -31,7 +31,7 @@ Standard Readme is designed for open source libraries. Although it’s [historic
 
 == Inhaltsverzeichnis
 
-- [[hintergrund]]#Hintergrund#
+- [#hintergrund] Hintergrund
 - [Install](#install)
 - [Usage](#usage)
 	- [Generator](#generator)
@@ -42,7 +42,7 @@ Standard Readme is designed for open source libraries. Although it’s [historic
 - [Contributing](#contributing)
 - [License](#license)
 
-[#hintergrund]
+[hintergrund]
 == Hintergrund
 Lange habe ich versucht ein Projekttemplate zu erstellen. Es gibt dazu bereits einige Projekte in meinem persönlichem Account. Doch nun ist mir Github dankenswerter Weise zuvor gekommen und hat einen Mechanismus angeboten ein bestehendes Projekt als Template Projekt zu markieren. Das konnte ich prima nutzen und möchte mich dafür recht herzlich Bedanken. 
 Dieses Projekt stellt ein Template für alle Projekte im RADES Beispiel Projekt Style dar. Wem es gefällt oder wer ein RADES Beispiel Projekt beisteuern möchte, der darf es gerne nutzen - alle anderen natürlich auch ;)
