@@ -9,12 +9,12 @@ image:http://images.webestools.com/buttons.php?frm=2&btn_type=11&txt=Scrum Board
 image:https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square["standard-readme compilant",link="https://github.com/RichardLitt/standard-readme"]
 
 == rades-example.template
-Template zum Aufsetzen eines RADES Beispiel Projektes
+Template zum Aufsetzen eines RADES Beispiel Projektes.
 
 
 
 
-Das README File ist für gewöhnlich der erste Kontakt mit Deinem KOde. Es sollte den Leuten erzählen warum sie Dein Modul nutzen sollen, wie sie es installieren können und wie sie es nutzen können. Ein Standard wie Dein README file zu schreiben ist, erleichtert dessen Erstellung und Wartung. Die Erstellung einer guten Dokumentation ist harte Arbeit. 
+Das README File ist für gewöhnlich der erste Kontakt mit Deinem Kode. Es sollte den Leuten erzählen warum sie Dein Modul nutzen sollen, wie sie es installieren können und wie sie es nutzen können. Ein Standard wie Dein README file zu schreiben ist, erleichtert dessen Erstellung und Wartung. Die Erstellung einer guten Dokumentation ist harte Arbeit. 
 
 
 
@@ -31,7 +31,7 @@ Standard Readme is designed for open source libraries. Although it’s [historic
 
 == Inhaltsverzeichnis
 
-- [Background](#background)
+- [[hintergrund]]#Hintergrund#
 - [Install](#install)
 - [Usage](#usage)
 	- [Generator](#generator)
@@ -42,50 +42,18 @@ Standard Readme is designed for open source libraries. Although it’s [historic
 - [Contributing](#contributing)
 - [License](#license)
 
-== Background
+[#hintergrund]
+== Hintergrund
+Lange habe ich versucht ein Projekttemplate zu erstellen. Es gibt dazu bereits einige Projekte in meinem persönlichem Account. Doch nun ist mir Github dankenswerter Weise zuvor gekommen und hat einen Mechanismus angeboten ein bestehendes Projekt als Template Projekt zu markieren. Das konnte ich prima nutzen und möchte mich dafür recht herzlich Bedanken. 
+Dieses Projekt stellt ein Template für alle Projekte im RADES Beispiel Projekt Style dar. Wem es gefällt oder wer ein RADES Beispiel Projekt beisteuern möchte, der darf es gerne nutzen - alle anderen natürlich auch ;)
 
-Standard Readme started with the issue originally posed by [@maxogden](https://github.com/maxogden) over at [feross/standard](https://github.com/feross/standard) in [this issue](https://github.com/feross/standard/issues/141), about whether or not a tool to standardize readmes would be useful. A lot of that discussion ended up in [zcei's standard-readme](https://github.com/zcei/standard-readme/issues/1) repository. While working on maintaining the [IPFS](https://github.com/ipfs) repositories, I needed a way to standardize Readmes across that organization. This specification started as a result of that.
+== Installation
 
-> Your documentation is complete when someone can use your module without ever
-having to look at its code. This is very important. This makes it possible for
-you to separate your module's documented interface from its internal
-implementation (guts). This is good because it means that you are free to
-change the module's internals as long as the interface remains the same.
+Installation bedeutet im konkreten Fall Erstellung eines neuen Repositories in Deinem Account mit exakt der selben Verzeichnis- und Dateistruktur wie sie dieses Projekt hier aufweist.
 
-> Remember: the documentation, not the code, defines what a module does.
+== Nutzung
 
-~ [Ken Williams, Perl Hackers](http://mathforum.org/ken/perl_modules.html#document)
-
-Writing READMEs is way too hard, and keeping them maintained is difficult. By offloading this process - making writing easier, making editing easier, making it clear whether or not an edit is up to spec or not - you can spend less time worry about whether or not your initial documentation is good, and spend more time writing and using code.
-
-As well, standardizing can help elsewhere. By having a standard, users can spend less time searching for the information they want. They can also build tools to gather search terms from descriptions, to automatically run example code, to check licensing, and so on.
-
-The goals for this repository are:
-
-1. A well defined **specification**. This can be found in the [Spec document](spec.md). It is a constant work in progress; please open issues to discuss changes.
-2. **An example README**. This Readme is fully standard-readme compliant, and there are more examples in the `example-readmes` folder.
-3. A **linter** that can be used to look at errors in a given Readme. Please refer to the [tracking issue](https://github.com/RichardLitt/standard-readme/issues/5).
-4. A **generator** that can be used to quickly scaffold out new READMEs. See [generator-standard-readme](https://github.com/RichardLitt/generator-standard-readme).
-5. A **compliant badge** for users. See [the badge](#badge).
-
-== Install
-
-This project uses [node](http://nodejs.org) and [npm](https://npmjs.com). Go check them out if you don't have them locally installed.
-
-```sh
-$ npm install --global standard-readme-spec
-```
-
-== Usage
-
-This is only a documentation package. You can print out [spec.md](spec.md) to your console:
-
-```sh
-$ standard-readme-spec
-# Prints out the standard-readme spec
-```
-
-
+Das Projekt ist ein Template für Projekte im Style von RADES Beispielen. Wem die Projektstruktur gefällt der klickt einfach auf den Template Button im oberen Bildschirmbereich.
 
 == Literatur und Quellen im Netz
 
@@ -107,12 +75,20 @@ https://github.com/FunThomas424242[@Huluvu424242]
 Unterstützung ist jederzeit erwünscht. Ein gelungener Einstieg sollte sich über Duchlesen, Prüfen/Testen, Korrigieren/Weiterentwickeln und Änderungen als Pull-Request einstellen, ergeben.
 Du kannst aber auch jederzeit gern ein Ticket öffnen unter: https://github.com/PIUGroup/rades-example.template/issues/new/choose[Ticket Erstellen].
 
-Standard Readme follows the [Contributor Covenant](http://contributor-covenant.org/version/1/3/0/) Code of Conduct.
+Dieses Projekt folgt den unter https://www.contributor-covenant.org/de/version/1/4/code-of-conduct/[Verhaltenskodex für Unterstützer] veröffentlichten Verhaltensregeln.
 
 === Unterstützer
 
+Dieses Projekt lebt vom Support all seiner Unterstützer genau wie auch vom Support all jener welche nicht namentlich bekannt sind aber das Projekt im Internet bekannt machen oder anderweitig unterstützen.
+
+Vielen Dank für all Euren Suppprt! 
+
+////
+Ab 100 Sterne auf github ist eine Verwaltung über opencollective für OpenSource Projekte möglich
 This project exists thanks to all the people who contribute. 
 <a href="graphs/contributors"><img src="https://opencollective.com/standard-readme/contributors.svg?width=890&button=false" /></a>
+////
+
 
 
 == Lizenz
