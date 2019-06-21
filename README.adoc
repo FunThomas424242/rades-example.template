@@ -35,7 +35,7 @@ Installation bedeutet im konkreten Fall Erstellung eines neuen Repositories in D
 [#nutzung]
 == Nutzung
 
-Das Projekt ist ein Template für Projekte im Style von RADES Beispielen. Wem die Projektstruktur gefällt der klickt einfach auf den Template Button im oberen Bildschirmbereich.
+Das Projekt ist ein Template für Projekte im Style von RADES Beispielen. Wem die Projektstruktur gefällt der klickt einfach auf den grünen "Use this Template" Button im oberen Bildschirmbereich.
 
 [#literatur]
 == Literatur und Quellen im Netz
