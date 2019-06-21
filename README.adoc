@@ -1,16 +1,122 @@
 [#status]
 image:https://maven-badges.herokuapp.com/maven-central/com.github.funthomas424242/rades-example.template/badge.svg?style=flat["Maven Central", link="https://maven-badges.herokuapp.com/maven-central/com.github.funthomas424242/rades-example.template"]
-image:https://api.bintray.com/packages/funthomas424242/funthomas424242-libs/rades-example.template/images/download.svg[link="https://bintray.com/funthomas424242/funthomas424242-libs/rades-example.template/_latestVersion"]
+// image:https://api.bintray.com/packages/funthomas424242/funthomas424242-libs/rades-example.template/images/download.svg[link="https://bintray.com/funthomas424242/funthomas424242-libs/rades-example.template/_latestVersion"]
 image:https://travis-ci.org/FunThomas424242/rades-example.template.svg?branch=master["Build Status", link="https://travis-ci.org/FunThomas424242/rades-example.template"]
 image:https://api.codacy.com/project/badge/Grade/88bf76546176437ea389629a2087d1b5["Codacy code quality", link="https://www.codacy.com/app/FunThomas424242/rades-example.template?utm_source=github.com&utm_medium=referral&utm_content=FunThomas424242/rades-example.template&utm_campaign=Badge_Grade"]
 image:https://codecov.io/gh/FunThomas424242/rades-example.template/branch/master/graph/badge.svg[link="https://codecov.io/gh/FunThomas424242/rades-example.template"]
 image:http://images.webestools.com/buttons.php?frm=2&btn_type=11&txt=Scrum Board["Scrum Board,scaledwidth="15%"", link="https://github.com/FunThomas424242/rades-example.template/projects/1"]
 
+image:https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square["standard-readme compilant",link="https://github.com/RichardLitt/standard-readme"]
+
 == rades-example.template
-Template zum Aufsetzen eines RADES Examples
+Template zum Aufsetzen eines RADES Beispiel Projektes
 
-Quellen
 
-* https://github.com/npryce/make-it-easy
+
+
+Das README File ist für gewöhnlich der erste Kontakt mit Deinem KOde. Es sollte den Leuten erzählen warum sie Dein Modul nutzen sollen, wie sie es installieren können und wie sie es nutzen können. Ein Standard wie Dein README file zu schreiben ist, erleichtert dessen Erstellung und Wartung. Die Erstellung einer guten Dokumentation ist harte Arbeit. 
+
+
+
+This repository contains:
+
+1. [The specification](spec.md) for how a standard README should look.
+2. A link to a linter you can use to keep your README maintained ([work in progress](https://github.com/RichardLitt/standard-readme/issues/5)).
+3. A link to [a generator](https://github.com/RichardLitt/generator-standard-readme) you can use to create standard READMEs.
+4. [A badge](#badge) to point to this spec.
+5. [Examples of standard READMEs](example-readmes/) - such as this file you are reading.
+
+Standard Readme is designed for open source libraries. Although it’s [historically](#background) made for Node and npm projects, it also applies to libraries in other languages and package managers.
+
+
+== Inhaltsverzeichnis
+
+- [Background](#background)
+- [Install](#install)
+- [Usage](#usage)
+	- [Generator](#generator)
+- [Badge](#badge)
+- [Example Readmes](#example-readmes)
+- [Related Efforts](#related-efforts)
+- [Maintainers](#maintainers)
+- [Contributing](#contributing)
+- [License](#license)
+
+== Background
+
+Standard Readme started with the issue originally posed by [@maxogden](https://github.com/maxogden) over at [feross/standard](https://github.com/feross/standard) in [this issue](https://github.com/feross/standard/issues/141), about whether or not a tool to standardize readmes would be useful. A lot of that discussion ended up in [zcei's standard-readme](https://github.com/zcei/standard-readme/issues/1) repository. While working on maintaining the [IPFS](https://github.com/ipfs) repositories, I needed a way to standardize Readmes across that organization. This specification started as a result of that.
+
+> Your documentation is complete when someone can use your module without ever
+having to look at its code. This is very important. This makes it possible for
+you to separate your module's documented interface from its internal
+implementation (guts). This is good because it means that you are free to
+change the module's internals as long as the interface remains the same.
+
+> Remember: the documentation, not the code, defines what a module does.
+
+~ [Ken Williams, Perl Hackers](http://mathforum.org/ken/perl_modules.html#document)
+
+Writing READMEs is way too hard, and keeping them maintained is difficult. By offloading this process - making writing easier, making editing easier, making it clear whether or not an edit is up to spec or not - you can spend less time worry about whether or not your initial documentation is good, and spend more time writing and using code.
+
+As well, standardizing can help elsewhere. By having a standard, users can spend less time searching for the information they want. They can also build tools to gather search terms from descriptions, to automatically run example code, to check licensing, and so on.
+
+The goals for this repository are:
+
+1. A well defined **specification**. This can be found in the [Spec document](spec.md). It is a constant work in progress; please open issues to discuss changes.
+2. **An example README**. This Readme is fully standard-readme compliant, and there are more examples in the `example-readmes` folder.
+3. A **linter** that can be used to look at errors in a given Readme. Please refer to the [tracking issue](https://github.com/RichardLitt/standard-readme/issues/5).
+4. A **generator** that can be used to quickly scaffold out new READMEs. See [generator-standard-readme](https://github.com/RichardLitt/generator-standard-readme).
+5. A **compliant badge** for users. See [the badge](#badge).
+
+== Install
+
+This project uses [node](http://nodejs.org) and [npm](https://npmjs.com). Go check them out if you don't have them locally installed.
+
+```sh
+$ npm install --global standard-readme-spec
+```
+
+== Usage
+
+This is only a documentation package. You can print out [spec.md](spec.md) to your console:
+
+```sh
+$ standard-readme-spec
+# Prints out the standard-readme spec
+```
+
+
+
+== Literatur und Quellen im Netz
+
+* https://github.com/noffle/art-of-readme[Art of Readme] - Erlerne die Kunst gute READMEs zu schreiben.
+* https://github.com/davidbgk/open-source-template/[open-source-template] - A README template to encourage open-source contributions.
+* https://www.makeareadme.com/
+* https://github.com/RichardLitt/standard-readme
+* https://github.com/RichardLitt/generator-standard-readme/
+* https://github.com/noffle/art-of-readme
+
+
+
+== Projekteigner
+
+https://github.com/FunThomas424242[@Huluvu424242]
+
+== Unterstützung
+
+Unterstützung ist jederzeit erwünscht. Ein gelungener Einstieg sollte sich über Duchlesen, Prüfen/Testen, Korrigieren/Weiterentwickeln und Änderungen als Pull-Request einstellen, ergeben.
+Du kannst aber auch jederzeit gern ein Ticket öffnen unter: https://github.com/PIUGroup/rades-example.template/issues/new/choose[Ticket Erstellen].
+
+Standard Readme follows the [Contributor Covenant](http://contributor-covenant.org/version/1/3/0/) Code of Conduct.
+
+=== Unterstützer
+
+This project exists thanks to all the people who contribute. 
+<a href="graphs/contributors"><img src="https://opencollective.com/standard-readme/contributors.svg?width=890&button=false" /></a>
+
+
+== Lizenz
+
+.LICENSE[LGPL-3.0 ff.] © PIUG
 
 
