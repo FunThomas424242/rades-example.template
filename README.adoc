@@ -1,4 +1,5 @@
 [#status]
+image:https://img.shields.io/badge/License-LGPL%20v3-blue.svg[link="https://www.gnu.org/licenses/lgpl-3.0"]
 image:https://maven-badges.herokuapp.com/maven-central/com.github.funthomas424242/rades-example.template/badge.svg?style=flat["Maven Central", link="https://maven-badges.herokuapp.com/maven-central/com.github.funthomas424242/rades-example.template"]
 // image:https://api.bintray.com/packages/funthomas424242/funthomas424242-libs/rades-example.template/images/download.svg[link="https://bintray.com/funthomas424242/funthomas424242-libs/rades-example.template/_latestVersion"]
 image:https://travis-ci.org/FunThomas424242/rades-example.template.svg?branch=master["Build Status", link="https://travis-ci.org/FunThomas424242/rades-example.template"]
