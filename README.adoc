@@ -11,50 +11,32 @@ image:https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style
 == rades-example.template
 Template zum Aufsetzen eines RADES Beispiel Projektes.
 
-
-
-
-Das README File ist für gewöhnlich der erste Kontakt mit Deinem Kode. Es sollte den Leuten erzählen warum sie Dein Modul nutzen sollen, wie sie es installieren können und wie sie es nutzen können. Ein Standard wie Dein README file zu schreiben ist, erleichtert dessen Erstellung und Wartung. Die Erstellung einer guten Dokumentation ist harte Arbeit. 
-
-
-
-This repository contains:
-
-1. [The specification](spec.md) for how a standard README should look.
-2. A link to a linter you can use to keep your README maintained ([work in progress](https://github.com/RichardLitt/standard-readme/issues/5)).
-3. A link to [a generator](https://github.com/RichardLitt/generator-standard-readme) you can use to create standard READMEs.
-4. [A badge](#badge) to point to this spec.
-5. [Examples of standard READMEs](example-readmes/) - such as this file you are reading.
-
-Standard Readme is designed for open source libraries. Although it’s [historically](#background) made for Node and npm projects, it also applies to libraries in other languages and package managers.
-
-
 == Inhaltsverzeichnis
 
 - link:#hintergrund[Hintergrund]
-- [Install](#install)
-- [Usage](#usage)
-	- [Generator](#generator)
-- [Badge](#badge)
-- [Example Readmes](#example-readmes)
-- [Related Efforts](#related-efforts)
-- [Maintainers](#maintainers)
-- [Contributing](#contributing)
-- [License](#license)
+- link:#installation[Installation]
+- link:#nutzung[Nutzung]
+- link:#literatur[Literatur und Quellen]
+- link:#projekteigner[Projekteigner]
+- link:#unterstützung[Unterstützung]
+- link:#lizenz[Lizenz]
 
 [#hintergrund]
 == Hintergrund
 Lange habe ich versucht ein Projekttemplate zu erstellen. Es gibt dazu bereits einige Projekte in meinem persönlichem Account. Doch nun ist mir Github dankenswerter Weise zuvor gekommen und hat einen Mechanismus angeboten ein bestehendes Projekt als Template Projekt zu markieren. Das konnte ich prima nutzen und möchte mich dafür recht herzlich Bedanken. 
 Dieses Projekt stellt ein Template für alle Projekte im RADES Beispiel Projekt Style dar. Wem es gefällt oder wer ein RADES Beispiel Projekt beisteuern möchte, der darf es gerne nutzen - alle anderen natürlich auch ;)
 
+[#installation]
 == Installation
 
 Installation bedeutet im konkreten Fall Erstellung eines neuen Repositories in Deinem Account mit exakt der selben Verzeichnis- und Dateistruktur wie sie dieses Projekt hier aufweist.
 
+[#nutzung]
 == Nutzung
 
 Das Projekt ist ein Template für Projekte im Style von RADES Beispielen. Wem die Projektstruktur gefällt der klickt einfach auf den Template Button im oberen Bildschirmbereich.
 
+[#literatur]
 == Literatur und Quellen im Netz
 
 * https://github.com/noffle/art-of-readme[Art of Readme] - Erlerne die Kunst gute READMEs zu schreiben.
@@ -64,12 +46,12 @@ Das Projekt ist ein Template für Projekte im Style von RADES Beispielen. Wem di
 * https://github.com/RichardLitt/generator-standard-readme/
 * https://github.com/noffle/art-of-readme
 
-
-
+[#projekteigner]
 == Projekteigner
 
 https://github.com/FunThomas424242[@Huluvu424242]
 
+[#unterstützung]
 == Unterstützung
 
 Unterstützung ist jederzeit erwünscht. Ein gelungener Einstieg sollte sich über Duchlesen, Prüfen/Testen, Korrigieren/Weiterentwickeln und Änderungen als Pull-Request einstellen, ergeben.
@@ -89,8 +71,7 @@ This project exists thanks to all the people who contribute.
 <a href="graphs/contributors"><img src="https://opencollective.com/standard-readme/contributors.svg?width=890&button=false" /></a>
 ////
 
-
-
+[#lizenz]
 == Lizenz
 
 .LICENSE[LGPL-3.0 ff.] © PIUG
