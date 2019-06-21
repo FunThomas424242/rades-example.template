@@ -17,7 +17,7 @@ Template zum Aufsetzen eines RADES Beispiel Projektes.
 - link:#installation[Installation]
 - link:#nutzung[Nutzung]
 - link:#literatur[Literatur und Quellen]
-- link:#projekteigner[Projekteigner]
+- link:#projektverantwortlicher[Projektverantwortlicher]
 - link:#unterstützung[Unterstützung]
 - link:#lizenz[Lizenz]
 
@@ -46,8 +46,8 @@ Das Projekt ist ein Template für Projekte im Style von RADES Beispielen. Wem di
 * https://github.com/RichardLitt/generator-standard-readme/
 * https://github.com/noffle/art-of-readme
 
-[#projekteigner]
-== Projekteigner
+[#projektverantwortlicher]
+== Projektverantwortlicher
 
 https://github.com/FunThomas424242[@Huluvu424242]
 
