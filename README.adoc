@@ -46,6 +46,7 @@ Das Projekt ist ein Template für Projekte im Style von RADES Beispielen. Wem di
 * https://github.com/RichardLitt/standard-readme
 * https://github.com/RichardLitt/generator-standard-readme/
 * https://github.com/noffle/art-of-readme
+* https://keepachangelog.com/de
 
 [#projektverantwortlicher]
 == Projektverantwortlicher
